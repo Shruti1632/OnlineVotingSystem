@@ -1,4 +1,4 @@
-# OnlineVotingSystem
+# OnlineVotingSystem 🗳️
 
 This project showcases the development of a secure and scalable Android application designed for real-time online voting. Leveraging Firebase for efficient and reliable data management, the application ensures vote integrity and provides immediate results. The project incorporates advanced user authentication methods and offers a user-friendly interface to cater to a diverse audience.
 
