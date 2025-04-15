@@ -1,6 +1,3 @@
-Apologies for any confusion earlier. Here's the complete README in a single Markdown block, incorporating the actual filenames from your GitHub repository:
-
-```markdown
 # 🗳️ Online Voting System
 
 This project showcases the development of a **secure** and **scalable** Android application designed for **real-time online voting**. Leveraging **Firebase** for efficient and reliable data management, the application ensures vote integrity and provides immediate results. The project incorporates **advanced user authentication** methods and offers a **user-friendly interface**, making it accessible for a diverse audience.
