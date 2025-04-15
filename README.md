@@ -80,7 +80,6 @@ To set up and run the **Online Voting System** locally, follow these steps:
 - `FirebaseHelper.java`: Handles Firebase database interactions and authentication processes.
 - `FaceRecognitionHelper.java`: Contains methods for integrating facial recognition features.
 - `activity_main.xml`: The main XML layout for the voting screen and interface.
-- `google-services.json`: Firebase configuration file for connecting the app to Firebase services.
 - `LICENSE`: MIT License file for the project.
 
 ---
