@@ -1,3 +1,6 @@
+Apologies for any confusion earlier. Here's the complete README in a single Markdown block, incorporating the actual filenames from your GitHub repository:
+
+```markdown
 # 🗳️ Online Voting System
 
 This project showcases the development of a **secure** and **scalable** Android application designed for **real-time online voting**. Leveraging **Firebase** for efficient and reliable data management, the application ensures vote integrity and provides immediate results. The project incorporates **advanced user authentication** methods and offers a **user-friendly interface**, making it accessible for a diverse audience.
@@ -74,13 +77,19 @@ To set up and run the **Online Voting System** locally, follow these steps:
 
 ---
 
-## 📄 Repository Structure
+## 📁 Repository Structure
 
-- `MainActivity.java`: Contains the main code for app navigation and interaction.
-- `FirebaseHelper.java`: Handles Firebase database interactions and authentication processes.
-- `FaceRecognitionHelper.java`: Contains methods for integrating facial recognition features.
-- `activity_main.xml`: The main XML layout for the voting screen and interface.
-- `LICENSE`: MIT License file for the project.
+- `app/src/main/java/com/example/onlinevotingsystem/CameraActivity.java`: Handles the camera functionality for facial recognition.
+- `app/src/main/java/com/example/onlinevotingsystem/FinalActivity.java`: Displays the final voting result and confirmation.
+- `app/src/main/java/com/example/onlinevotingsystem/GraphicOverlay.java`: Provides overlay functionality for face detection.
+- `app/src/main/java/com/example/onlinevotingsystem/HomeActivity.java`: The main screen after login, where users can navigate to vote.
+- `app/src/main/java/com/example/onlinevotingsystem/LoginActivity.java`: Manages user login process.
+- `app/src/main/java/com/example/onlinevotingsystem/MainActivity.java`: The main entry point of the app.
+- `app/src/main/java/com/example/onlinevotingsystem/RegisterActivity.java`: Handles user registration.
+- `app/src/main/java/com/example/onlinevotingsystem/SelectParty.java`: Allows users to select the party they want to vote for.
+- `app/src/main/java/com/example/onlinevotingsystem/UserUpdatePassword.java`: Manages user password updates.
+- `app/src/main/java/com/example/onlinevotingsystem/Users.java`: Represents the user data model.
+- `app/src/main/java/com/example/onlinevotingsystem/VerifiyId.java`: Verifies user identity during login.
 
 ---
 
@@ -99,7 +108,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### 🎯 Deployment
+## 🎯 Deployment
 
 The **Online Voting System** was successfully deployed during the **Class Representative (CR)** elections, demonstrating its effectiveness in a real-world election scenario. During deployment:
 - Firebase was set up to handle real-time voting data.
@@ -109,6 +118,3 @@ The **Online Voting System** was successfully deployed during the **Class Repres
 This system can be further enhanced for larger-scale elections, providing a secure, scalable solution for online voting in various settings.
 
 ---
-
-Feel free to reach out for any questions or contributions to enhance this project further!
-
